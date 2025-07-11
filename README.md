@@ -24,7 +24,14 @@ pip install -r requirements.txt
 ```
 
 #### Setup the environment variables
+If You are  Using CMD using this command
+``` 
+copy .env.example .env
+```
+If You are  Using WSL using this command
 ``` 
 cp .env.example .env
 ```
+and you can create file manually called .env and copy values from .env.example to .env
+
 Set your environment in the '.env' file .like 'OPENAI_API_KEY' .
