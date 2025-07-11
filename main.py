@@ -1,7 +1,10 @@
 from fastapi import FastAPI
+from routes import base
+from dotenv import load_dotenv
+load_dotenv('.env')
+
 
 app=FastAPI()
 
-@app.get("/Welcome")
-async def root():
-    return {"message":"Weclome to my Rag app ready for Production"}
+app.include_router(base.base_router)
+
