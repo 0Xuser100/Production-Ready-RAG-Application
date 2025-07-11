@@ -35,3 +35,13 @@ cp .env.example .env
 and you can create file manually called .env and copy values from .env.example to .env
 
 Set your environment in the '.env' file .like 'OPENAI_API_KEY' .
+
+## Run the FasApi server
+
+```bash
+
+uvicorn main:app --reload --host 127.0.0.1 --port 5000
+```
+## POSTMAN Collection
+
+Download the POSTMAN collection from [/assets/Rag_App_test.postman_collection.json](/assets/Rag_App_test.postman_collection.json)
