@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "7c036efb-a38d-4e8c-9879-09f996f54c13",
+		"name": "Rag_App_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45446916",
+		"_collection_link": "https://mahmoudabdulhamid.postman.co/workspace/mahmoud-abdulhamid's-Workspace~e732a28d-6064-4e81-8412-a3c8014f851a/collection/45446916-7c036efb-a38d-4e8c-9879-09f996f54c13?action=share&source=collection_link&creator=45446916"
+	},
+	"item": [
+		{
+			"name": "root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/Welcome",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"Welcome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}
