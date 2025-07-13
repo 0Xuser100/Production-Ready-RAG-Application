@@ -40,7 +40,7 @@ Set your environment in the '.env' file .like 'OPENAI_API_KEY' .
 
 ```bash
 
-uvicorn main:app --reload --host 127.0.0.1 --port 5000
+uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 ## POSTMAN Collection
 
