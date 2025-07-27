@@ -37,10 +37,17 @@ and you can create file manually called .env and copy values from .env.example t
 Set your environment in the '.env' file .like 'OPENAI_API_KEY' .
 
 ## Run the FasApi server
+```bash
+cd src
+```
 
 ```bash
 
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
+```
+### for faster run 
+```bash
+python ryn.py
 ```
 ## POSTMAN Collection
 
