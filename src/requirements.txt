@@ -4,7 +4,9 @@ python-multipart==0.0.9
 python-dotenv==1.1.0
 pydantic-settings==2.9.1
 aiofiles==24.1.0
-langchain
-PyMuPDF
-# unstructured
-# openpyxl
+langchain==0.3.25
+PyMuPDF==1.26.0
+unstructured==0.17.2
+openpyxl==3.1.5
+
+
